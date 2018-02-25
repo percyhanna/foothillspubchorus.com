@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no">
+  <title>{{ page.title }} – {{ page.title_suffix }}</title>
+
+  <!-- facebook open graph tags -->
+  <meta name="og:url" content="{{ page.url | absolute_url }}">
+  <meta name="og:title" content="{{ page.title }}">
+  {% if page.excerpt -%}
+  <meta name="og:description" content="{{ page.excerpt | strip_html | lstrip | rstrip | escape_once }}">
+  {% else -%}
+  <meta name="og:description" content="{{ page.description }}">
+  {% endif -%}
+  <meta name="og:image" content="{{ page.image | absolute_url }}">
+
+  <!-- twitter card tags additive with the og: tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:domain" content="foothillsphilharmonic.com">
+  <meta name="twitter:title" value="{{ page.title }}" />
+  {% if page.excerpt -%}
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | lstrip | rstrip | escape_once }}">
+  {% else -%}
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% endif -%}
+  <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="{{ page.description }}">
+  <meta name="keywords" content="Okotoks pub chorus, Alberta pub chorus, foothills pub chorus, high river pub choruspub chorus">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/pub-chorus.css?{% include asset_timestamp.html path='/css/pub-chorus.css' %}" type="text/css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+</head>
+
+<body class="{{ page.body_class }}">
+  <div id="page">
+    <div class="container">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>
