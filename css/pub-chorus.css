@@ -41,6 +41,10 @@ a:hover, a:active {
   text-align: center;
 }
 
+.logo img {
+  max-width: 50%;
+}
+
 h1 {
   font-family: 'Bangers', cursive;
   text-align: center;
