@@ -5,11 +5,13 @@ title: Foothills Pub Chorus
 
 # Foothills Pub Chorus
 
-## Inaugural Pub Chorus Event
+## [Inaugural Pub Chorus Event](https://www.facebook.com/events/383641028772909/)
 
 **Where:** The Royal Duke, Okotoks
 
 **When:** 7pm, Wednesday February 28th, 2018
+
+**[Facebook Event](https://www.facebook.com/events/383641028772909/)**
 
 We are excited to invite you to the first ever **#FoothillsPubChorus** event at the Royal Duke Hotel in Okotoks, and it's free! Come and join in the singing, have a laugh and a drink or two perhaps!
 
