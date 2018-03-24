@@ -11,7 +11,7 @@ title: Foothills Pub Chorus
 
 **When:** 7:30pm, Friday March 30th, 2018
 
-**[Facebook Event](https://www.facebook.com/events/162237834343849/)**
+Invite your friends using our **[Facebook Event](https://www.facebook.com/events/162237834343849/)**
 
 We would love for you to join us at the next **#FoothillsPubChorus** event at the Royal Duke Hotel in Okotoks, and it's free! Come and join in the singing, have a laugh and a drink or two perhaps!
 
