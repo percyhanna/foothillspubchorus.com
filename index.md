@@ -7,7 +7,7 @@ title: Foothills Pub Chorus
 
 ## [Next Pub Chorus Event](https://www.facebook.com/events/162237834343849/)
 
-**Where:** The Royal Duke, Okotoks
+**Where:** [The Royal Duke, Okotoks](http://royaldukehotel.com/)
 
 **When:** 7:30pm, Friday March 30th, 2018
 
